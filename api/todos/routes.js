@@ -11,6 +11,9 @@ module.exports = {
   },
 
   post: {
-
+    "/todos": {
+      action: "Todos.createTodo",
+      middlewares: ["auth"]
+    }
   }
 }
