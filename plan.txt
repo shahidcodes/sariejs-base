@@ -1,5 +1,0 @@
-- read all configuration
-- prepare and connect to database
-- initiate http startup code
-- register routes
-- listen on port
