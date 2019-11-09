@@ -1,7 +1,7 @@
 {
-  "name": "tempest-example",
+  "name": "sariejs-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample sarie js application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "morgan": "^1.9.1",
-    "tempest": "file:../tempest"
+    "sariejs": "^0.1.2"
   }
 }

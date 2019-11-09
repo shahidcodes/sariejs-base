@@ -1,17 +1,13 @@
-const tempest = require("tempest")
+const Sarie = require("sariejs")
 const morgan = require("morgan")
 
-tempest
+Sarie
   .onBeforeInit(() => {
-    tempest._test = 1;
+    console.log('initializing app')
   })
   .onBeforeRoutesRegistered(app => {
     app.use(morgan('dev'))
   })
-  .onAfterRoutesRegistered(app => {
-
-  })
-  .onAfterInit(app => {
-    console.log(tempest._test)
-  })
+  .onAfterRoutesRegistered(app => { })
+  .onAfterInit(app => { })
   .start().then(console.log)
