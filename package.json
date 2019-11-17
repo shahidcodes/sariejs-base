@@ -1,5 +1,5 @@
 {
-  "name": "sariejs-example",
+  "name": "sariejs-base",
   "version": "1.0.0",
   "description": "Sample sarie js application",
   "main": "index.js",
@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "morgan": "^1.9.1",
-    "sariejs": "^0.1.2"
+    "sariejs": "^0.1.6"
   }
 }

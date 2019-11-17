@@ -1,13 +1,14 @@
 module.exports = {
+  defaultDatabase: 'sariejs',
   databases: [{
     host: "localhost",
     port: 27017,
-    user: "tempest",
-    pwd: "tempest",
+    user: "sariejs",
+    pwd: "sariejs",
     options: {
       useUnifiedTopology: true,
       useNewUrlParser: true
     },
-    name: "tempest"
+    name: "sariejs"
   }]
 }
